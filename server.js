@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === "production") {
 	databaseToUse = "mongodb://filip:Filipo21@ds129010.mlab.com:29010/heroku_95g3lc63";
 }
 else {
-	databaseToUse = 'mongodb://localhost/reactBoilerplate';
+	databaseToUse = 'mongodb://localhost';
 }
 
 
